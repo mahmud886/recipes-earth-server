@@ -1,0 +1,49 @@
+[
+    {
+        "foodCode": "01_0001",
+        "foodCategories": "Cereals and their products",
+        "foodNameEnglish": "Barley, whole-grain, raw",
+        "foodNameBangla": "Jaab, gota",
+        "ediblePortionCoefficient": 1.0,
+        "nutritionPer100g": {
+            "energy": 1360,
+            "water": 11.7,
+            "protein": 10.9,
+            "fat": 2.2,
+            "carbohydrate": 56.4,
+            "toatlDietaryFibre": 17.3,
+            "ash": 1.5,
+            "ca": 26,
+            "fe": 5.5,
+            "mg": 133,
+            "p": 264,
+            "k": 452,
+            "na": 4,
+            "zn": 2.77,
+            "cu": 0.5,
+            "retinol": 0,
+            "betaCaroteneEquivalents": 13,
+            "vitaminA": 1,
+            "vitaminB6": 0.318,
+            "vitaminD": 0,
+            "vitaminE": 0.9,
+            "thiamin": 0.47,
+            "ribonflavin": 0.2,
+            "niacinEquivalents": 7.8,
+
+            "folate": 34,
+            "vitaminC": 0
+        }
+    },
+    {
+        "recipeTitle": "South Indian Okra curry (aka bindi curry)",
+        "recipeDescription": "This is my mother's recipe and I loved this curry when I was young. After moving out of India, I hardly find fresh Okra. I recently found frozen okra in Tesco, so I thought I'll just try cooking it. It came out delicious",
+        "recipeDuration": " 30 min",
+        "recipeServing": " 2 servings",
+        "recipeType": "Lunch",
+        "recipeCategory": "Chicken",
+        "recipeIngredients": "300 g Okra (found frozen okra in Tesco - pic below),1 Onion, 4-5 Chillies, 2 pieces Garlic, Curry leaves (optional), 1-2 tb spoon chilli, 1/2 tb spoon Turmeric, Oil, Salt",
+        "recipeSteps": "Step 1. Cut onions chillies and keep them ready.You can see the frozen okra in the picture below.Step 2. This is very specific from the place I come from My grandmother used to make this chilli garlic mix which is used later in the curries In a pestle, add the raw garlic and crush it to small pieces. Then add the chilli powder and mix it with the mortar. This gives the chilli powder that raw garlic flavour and tastes very nice if you're a garlic lover. Step 3. Add a generous amount of oil to a heated pan (to remove the slimy texture of the okra, we need to add a little more oil) Once hot, add chillies, curry leaves and onions Fry them till the onions are medium brown. Step 4. Once the onions are changing colour, add Turmeric and fry for 1 more minute. Now add okra to the pan. Step 5.  Final result looks like below. You can use it in Chapathi, paratha or sometimes with Rice as well.",
+        "recipeImage": "jpg"
+    }
+]
