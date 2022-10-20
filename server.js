@@ -3,9 +3,11 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const connection = require('./db');
+
 const crudRoutes = require('./routes/crudRoutes');
 const nutritionRoutes = require('./routes/nutritionRoutes');
 const recipeRoutes = require('./routes/RecipeRoutes');
+const healthyRecipeRoutes = require('./routes/healthyRecipeRoutes');
 const categoryRoutes = require('./routes/categoryRoutes');
 
 const app = express();
@@ -31,6 +33,7 @@ app.use((req, res, next) => {
 app.use('/api/v1/cruds', crudRoutes);
 app.use('/api/v1/nutritions', nutritionRoutes);
 app.use('/api/v1/recipes', recipeRoutes);
+app.use('/api/v1/healthyRecipes', healthyRecipeRoutes);
 app.use('/api/v1/categories', categoryRoutes);
 
 // listening on port
