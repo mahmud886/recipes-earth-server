@@ -5,6 +5,10 @@ const HealthyRecipeSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Recipe Title is Required'],
     },
+    recipeSummary: {
+        type: String,
+        required: [true, 'Recipe Title is Required'],
+    },
     recipeDescription: {
         type: String,
     },
@@ -32,23 +36,17 @@ const HealthyRecipeSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Recipe Steps is Required'],
     },
-    image: {
+    recipeNutritionServeSize: {
         type: String,
     },
-    energy: {
-        type: Number,
+    recipeNutritionPerServe: {
+        type: String,
     },
-    water: {
-        type: Number,
+    recipeNutritionExchanges: {
+        type: String,
     },
-    protein: {
-        type: Number,
-    },
-    fat: {
-        type: Number,
-    },
-    carbohydrate: {
-        type: Number,
+    image: {
+        type: String,
     },
 });
 
